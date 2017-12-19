@@ -1,0 +1,295 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, ../sass/_reset.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 16, ../sass/_reset.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 19, ../sass/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../sass/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 25, ../sass/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 29, ../sass/_reset.scss */
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+/* line 34, ../sass/_reset.scss */
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 38, ../sass/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato Regular.eot");
+  src: url("../fonts/Lato Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato Regular.woff2") format("woff2"), url("../fonts/Lato Regular.woff") format("woff"), url("../fonts/Lato Regular.ttf") format("truetype"), url("../fonts/Lato Regular.svg#Lato Regular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2044;
+}
+@font-face {
+  font-family: 'Lato-Bold';
+  src: url("../fonts/Lato Bold.eot");
+  src: url("../fonts/Lato Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato Bold.woff2") format("woff2"), url("../fonts/Lato Bold.woff") format("woff"), url("../fonts/Lato Bold.ttf") format("truetype"), url("../fonts/Lato Bold.svg#Lato Bold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2044;
+}
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url("../MyriadPro-Regular.eot");
+  src: url("../MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("../MyriadPro-Regular.woff2") format("woff2"), url("../MyriadPro-Regular.woff") format("woff"), url("../MyriadPro-Regular.ttf") format("truetype"), url("../MyriadPro-Regular.svg#MyriadPro-Regular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-00FE;
+}
+/* line 12, ../sass/_header_img.scss */
+#wrapper {
+  background-color: #ffffff;
+  display: block;
+  overflow: hidden;
+}
+/* line 16, ../sass/_header_img.scss */
+#wrapper .header {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+/* line 20, ../sass/_header_img.scss */
+#wrapper .header .header_top_left {
+  width: 50%;
+  display: block;
+  float: left;
+  overflow: hidden;
+}
+/* line 25, ../sass/_header_img.scss */
+#wrapper .header .header_top_left ul {
+  margin: 30px 0px 0px 200px;
+}
+/* line 27, ../sass/_header_img.scss */
+#wrapper .header .header_top_left ul li {
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: 'Lato';
+  font-size: 18px;
+  color: #4f4f4f;
+  margin: 0px 45px 0px 0px;
+}
+/* line 37, ../sass/_header_img.scss */
+#wrapper .header .header_top_right {
+  width: 50%;
+  display: block;
+  float: right;
+  overflow: hidden;
+}
+/* line 42, ../sass/_header_img.scss */
+#wrapper .header .header_top_right ul {
+  margin: 30px 215px 0px 0px;
+  float: right;
+}
+/* line 45, ../sass/_header_img.scss */
+#wrapper .header .header_top_right ul li {
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: 'Lato';
+  font-size: 18px;
+  color: #4f4f4f;
+  margin: 0px 45px 0px 0px;
+}
+/* line 52, ../sass/_header_img.scss */
+#wrapper .header .header_top_right ul li .square {
+  border: 2px solid #4f4f4f;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  margin: 0px 0px -2px 13px;
+}
+/* line 62, ../sass/_header_img.scss */
+#wrapper .header .header_navigation {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+/* line 66, ../sass/_header_img.scss */
+#wrapper .header .header_navigation .navigation {
+  margin: 110px 0px 45px 0px;
+}
+/* line 68, ../sass/_header_img.scss */
+#wrapper .header .header_navigation .navigation li {
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: 'Lato';
+  font-size: 18px;
+  margin: 0px 35px 0px 0px;
+}
+/* line 75, ../sass/_header_img.scss */
+#wrapper .header .header_navigation .navigation li a {
+  text-decoration: none;
+  color: #4f4f4f;
+}
+/* line 78, ../sass/_header_img.scss */
+#wrapper .header .header_navigation .navigation li a:hover {
+  font-weight: 600;
+  color: black;
+}
+/* line 87, ../sass/_header_img.scss */
+#wrapper .main_img {
+  display: block;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin: 0px 0px 120px 0;
+}
+/* line 93, ../sass/_header_img.scss */
+#wrapper .main_img img {
+  width: 100%;
+  display: block;
+  position: relative;
+  height: 796px;
+}
+/* line 99, ../sass/_header_img.scss */
+#wrapper .main_img .sale_1 {
+  position: absolute;
+  font-size: 102px;
+  font-family: 'Lato';
+  top: 18%;
+  right: 17%;
+  color: #b83a40;
+  text-transform: uppercase;
+  letter-spacing: 24px;
+}
+/* line 109, ../sass/_header_img.scss */
+#wrapper .main_img .sale_2 {
+  position: absolute;
+  font-size: 102px;
+  font-family: 'Lato';
+  top: 34%;
+  right: 18%;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 24px;
+}
+
+/* line 12, ../sass/main.scss */
+#wrapper #content_slider {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+/* line 17, ../sass/main.scss */
+#wrapper #content_slider .common_line {
+  display: block;
+  width: 335px;
+  height: 2px;
+  background-color: #a5a5a5;
+  margin: 0 auto;
+}
+/* line 24, ../sass/main.scss */
+#wrapper #content_slider .products {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: black;
+  font-family: 'Lato';
+  text-align: center;
+  margin: 45px 0px 0px 0px;
+  letter-spacing: 14px;
+}
+/* line 33, ../sass/main.scss */
+#wrapper #content_slider .slider_wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* line 37, ../sass/main.scss */
+#wrapper #content_slider .slider_wrap div {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+}
+/* line 43, ../sass/main.scss */
+#wrapper #content_slider .arrow_left {
+  position: absolute;
+  top: 63%;
+  left: 11%;
+}
+/* line 48, ../sass/main.scss */
+#wrapper #content_slider .arrow_right {
+  position: absolute;
+  top: 63%;
+  right: 11%;
+}
+/* line 55, ../sass/main.scss */
+#wrapper .information {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+/* line 59, ../sass/main.scss */
+#wrapper .information .info_wrap {
+  display: block;
+  margin: 150px 200px 0px 200px;
+}
+/* line 62, ../sass/main.scss */
+#wrapper .information .info_wrap .about_us_img01 {
+  float: right;
+  width: 50%;
+}
+/* line 66, ../sass/main.scss */
+#wrapper .information .info_wrap .about_us {
+  float: left;
+  width: 50%;
+}
+/* line 69, ../sass/main.scss */
+#wrapper .information .info_wrap .about_us .common_line02 {
+  width: 190px;
+  height: 2px;
+  display: block;
+  background-color: #a5a5a5;
+  margin: 0 auto;
+}
+/* line 76, ../sass/main.scss */
+#wrapper .information .info_wrap .about_us .about {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: black;
+  font-family: 'Lato';
+  text-align: center;
+  letter-spacing: 10px;
+  margin: 45px 0px 0px 0px;
+}

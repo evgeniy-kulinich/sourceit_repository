@@ -1,0 +1,120 @@
+
+
+
+
+$mainColor: #ffffff;
+$footerColor : #eeeeee;
+$fontColor: #4f4f4f;
+
+
+
+
+#wrapper {
+	background-color: $mainColor;   
+	display: block;
+	overflow: hidden;
+	.header {
+		display: block;
+		width: 100%;
+		overflow: hidden;
+		.header_top_left {
+			width: 50%;
+			display: block;
+			float: left;
+			overflow: hidden;
+			ul {
+				margin: 30px 0px 0px 200px;
+				li {
+					display: inline-block;
+					text-transform: uppercase;
+					font-family: 'Lato';
+					font-size: 18px;
+					color: $fontColor;
+					margin: 0px 45px 0px 0px;
+				}
+			}
+		}
+		.header_top_right {
+			width: 50%;
+			display: block;
+			float: right;
+			overflow: hidden;
+			ul {
+				margin: 30px 215px 0px 0px;
+				float: right;
+				li {
+					display: inline-block;
+					text-transform: uppercase;
+					font-family: 'Lato';
+					font-size: 18px;
+					color: $fontColor;
+					margin: 0px 45px 0px 0px;
+					.square {
+						border: 2px solid #4f4f4f;
+						width: 18px;
+						height: 18px;
+						display: inline-block;
+						margin: 0px 0px -2px 13px;
+					}
+				}
+			}
+		}
+		.header_navigation {
+			width: 100%;
+			display: block;
+			text-align: center;
+			.navigation {
+				margin: 110px 0px 45px 0px;
+				li {
+					display: inline-block;
+					text-transform: uppercase;
+					font-family: 'Lato';
+					font-size: 18px;
+					margin: 0px 35px 0px 0px;
+
+					a {
+						text-decoration: none;
+						color: $fontColor;
+						&:hover {
+							font-weight: 600;
+							color: black;
+						}
+					}
+				}
+			}
+		}
+	}
+	.main_img {
+		display: block;
+		width: 100%;
+		position: relative;
+		overflow: hidden;
+		margin: 0px 0px 120px 0;
+		img {
+			width: 100%;
+			display: block;
+			position: relative;
+			height: 796px;
+		}
+		.sale_1 {
+			position: absolute;
+			font-size: 102px;
+			font-family: 'Lato';
+			top: 18%;
+			right: 17%;
+			color: #b83a40;
+			text-transform: uppercase;
+			letter-spacing: 24px;
+		}
+		.sale_2 {
+			position: absolute;
+			font-size: 102px;
+			font-family: 'Lato';
+			top: 34%;
+			right: 18%;
+			color: white;
+			text-transform: uppercase;
+			letter-spacing: 24px;
+		}
+	}
+};
